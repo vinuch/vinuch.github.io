@@ -1,1 +1,265 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Huddle landing page with coded decorative elements</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center;  margin: 25px 0 0; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f6f9fe;
+      font-family: 'poppins', sans-serif;
+    }
+    .container1 {
+      
+    }
+    .container2 {
+        padding: 40px;
+    }
+    .home-page {
+      
+      /* position: relative; */
+      z-index: 3;
+    }
+    ul {
+      list-style: none
+    }
+    a, a:active, a:hover {
+      text-decoration: none;
+      color: inherit;
+    }
+    .flex {
+      display: flex;
+    }
+    .top a#btn-free {
+      margin-left: auto;
+      padding: 10px 20px;
+      background-color: #f6f9fe; 
+      font-size: .8em;
+    }
+    .top {
+      padding: 30px 40px;
+      margin-bottom: 42px;
+    }
+    .main {
+      margin: auto;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 200px;
+    }
+    .caption {
+      width: 450px;
+      margin: 10px;
+    }
+    .btn-pink {
+      background-color: #fa58c0;
+      padding: 10px 40px;
+      margin: 10px;
+      font-size: 0.8em;
+      color: white;
+    }
+    .box-white {
+    height: 879px;
+    width: 556px;
+    background-color: #fff;
+    position: absolute;
+    transform: rotate(60deg);
+    left: 434px;
+    top: -75px;
+    right: 0;
+    border-radius: 10%;
+    z-index: -1;
+}
+  .box-purple {
+    height: 1181px;
+    width: 556px;
+    background: linear-gradient(to bottom, rgb(241, 81, 200), rgb(192,83,243));
+    transform: rotate(-56deg);
+    border-radius: 20px;
+    left: 892px;
+    z-index: -1;
+    top: -476px;
+    position: absolute;
+}
+.page2 {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.page2 .page2-img {
+  flex-basis: 32%;
+    height: 288px;
+    margin-left: 10%;
+    padding-left: 60px;
+}
+.text {
+    margin-left: auto;
+    width: 30%;
+    padding-right: 80px;
+    margin-right: 10%;
+}
+.page2-img {
+  
+}
+section.flex {
+  justify-content: center;
+  align-items: center;
+}
+.newsletter {
+  text-align: center;
+  padding: 50px 100px;
+  background-color: #fff;
+  box-shadow: 0.1px 15px 25px #9d9393;
+  margin-bottom: 150px;
+}
+footer {
+  background-color: #00252e;
+  color: #fff;
+  font-size: .8em;
+  margin-top: 40px;
+  margin-bottom: 0;
+  padding: 55px;
+  
+}
+footer div {
+  flex: 1;
+  flex-basis: 20%;
+}
+footer ul li {
+  padding: 8px;
+}
+footer ul {
+  flex: 1;
+  margin-top: 50px;
+  flex-basis: 10%;
+}
+#footer-btn {
+  
+  display: inline-block;
+}
+footer input {
+  border-radius: 10px;;
+  padding: 10px;
+}
+#subscribe {
+  margin-top: 50px;
+}
+#copyright {
+  padding: 8px;
+}
+  </style>
+</head>
+<body>
+  <div class="container1">
+    <div class="home-page">
+      <div class="top flex">
+        <a href="#"><img src="images/logo.svg" alt="huddle logo"></a> 
+        <a id="btn-free" href="#">Try Free</a> 
+      </div>
+      
+      <div class="main flex">
+        <!-- <div class="box-white"></div>
+        <div class="box-purple"></div> -->
+        <img src="images/illustration-mockups.svg" alt="illustration-mockups" width="470rem" height="350rem">
+        <div class="caption">
+          <h3>Build The Community Your Fans Will Love </h3>
+          <p>
+            Huddle re-designs the way we build communitites. You have a voice, 
+            but does your audience. Create connections with your users as you engage
+            in genuine discussion.
+          </p>
+          <a class="btn-pink" href="#">Get Started for free</a>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="page2 flex">
+      <div class="page2-img">
+        <img src="images/illustration-your-users.svg" alt="" width="100%" height="100%">
+      </div>
+      <div class="text">
+          <div>
+            <h3>Flowing Conversations </h3>
+            <p>
+              You wouldn't paginate a conversation in real life, 
+              so why do it online? Our threads have just-in-time 
+              loading for a more natural flow.
+            </p>
+          </div>
+          <div>
+            <h3>Growing Together </h3>
+            <p>
+              You wouldn't paginate a conversation in real life, 
+              so why do it online? Our threads have just-in-time 
+              loading for a more natural flow.
+            </p>
+          </div>
+          <div>
+            <h3>Your Users</h3>
+            <p>
+              You wouldn't paginate a conversation in real life, 
+              so why do it online? Our threads have just-in-time 
+              loading for a more natural flow.
+            </p>
+          </div>
+      </div>
+      
+    </div>
+    
+    <section class="flex">
+      <div class="newsletter">
+        <h2>Try It Free</h2>
+        <p>Fully featured 30-day free trial-no credit card required</p>
+        <a class="btn-pink" href="#">Get Started For free</a>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container2 flex">
+      <div>
+        <img src="images/logo-white.svg" alt="">
+        <p id="copyright">&copy Copyright 2019 Huddle. All rights reserved.</p>
+      </div>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">What We Do</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Career </a></li>
+        <li><a href="#">BLog</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <div id="last">
+        <h1>SUBSCRIBE</h1>
+        <p>
+          to receive tips on how to grow your community, sign up to our
+           weekly newsletter. We'll never send you spam or pass on your email address. 
+        </p>
+        <form action="">
+          <input type="email" size="30">
+        </form>
+        
+        <a id="footer-btn" href="#" class="btn-pink">Subscribe</a>
+      </div>
+
+    </div>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Vincent</a>.
+    </p>
+  </footer>
+</body>
+</html>
